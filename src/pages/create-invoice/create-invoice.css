@@ -1,0 +1,24 @@
+.react-date-picker {
+  margin-right: -1rem;
+}
+
+.react-date-picker__wrapper {
+  border: none !important;
+}
+
+.react-date-picker__inputGroup {
+  text-align: right;
+}
+
+.react-date-picker__inputGroup,
+.react-date-picker__inputGroup input {
+  color: #c8c8ca;
+}
+
+.react-date-picker__calendar-button .react-date-picker__button {
+  color: var(--primary-color) !important;
+}
+
+.react-date-picker__button svg {
+  stroke: var(--primary-color) !important;
+}

@@ -1,0 +1,181 @@
+.pf-home {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  background-color: var(--white-color);
+  padding-bottom: 5rem;
+}
+
+.sa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem 12rem 3rem;
+  color: var(--white-color);
+  background: var(--primary-color);
+}
+
+.sa-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.sa-header a {
+  color: var(--white-color);
+}
+
+.sa-login-btn {
+  font-size: 1.6rem;
+  padding: 0.8rem 2rem;
+  border: 0.6px solid var(--white-color);
+  border-radius: 1rem;
+}
+
+.sa-card {
+  position: relative;
+  max-width: 60rem;
+  margin: -10rem auto 4rem auto;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0rem 2rem 2rem rgba(0, 0, 0, 0.2);
+  color: var(--primary-color);
+  background: var(--white-color);
+}
+
+.sa-card-title {
+  font-size: 2.5rem;
+  color: var(--black-color);
+}
+
+.sa-scan-btn {
+  position: absolute;
+  right: 2rem;
+}
+
+.pf-home .avatar {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem auto;
+}
+
+.pf-home .invoice-card .avatar {
+  width: 7rem;
+  height: 7rem;
+  margin: 0;
+}
+
+.pf-home .text {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.pf-home .invoice-card .text {
+  font-size: 4rem;
+}
+
+.sa-website:hover,
+.sa-website {
+  text-decoration: underline;
+}
+
+.sa-pay-btn:hover,
+.sa-pay-btn {
+  font-size: 2.2rem;
+  padding: 0.5rem;
+}
+
+/*** Full Calendar ***/
+
+.fc {
+  max-height: 40rem;
+  font-size: 0.8em !important;
+}
+
+.fc-toolbar-title {
+  font-size: 1.4em !important;
+}
+
+.fc-button-primary,
+.fc-today-button {
+  background: transparent !important;
+  color: var(--black-color) !important;
+  text-transform: capitalize !important;
+  border: none !important;
+}
+
+.fc-button-primary:focus {
+  box-shadow: none !important;
+}
+
+.fc-today-button {
+  border: 1px solid var(--grey-color) !important;
+  font-size: 1.4rem !important;
+}
+
+.fc .fc-timegrid-axis-frame {
+  display: none !important;
+}
+
+.fc-day-disabled {
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .sa-header {
+    padding-bottom: 10rem;
+  }
+
+  .sa-login-btn {
+    font-size: 2.2rem;
+  }
+
+  .sa-card {
+    max-width: 45rem;
+    margin-top: -8rem;
+  }
+
+  .pf-home .avatar {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .pf-home .text {
+    font-size: 5rem;
+  }
+
+  .fc {
+    font-size: 1em !important;
+  }
+
+  .fc .fc-toolbar-title {
+    font-size: 1.6em !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .sa-card {
+    max-width: 55rem;
+    margin-top: -10rem;
+  }
+
+  .pf-home .avatar {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .pf-home .text {
+    font-size: 6rem;
+  }
+}
